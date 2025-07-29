@@ -8,26 +8,25 @@ function App() {
   return (
     <div className='h-screen w-full flex flex-col items-center justify-center gap-10 bg-gray-100'>
       
-      {/* <motion.div 
+      <motion.div 
         className='h-36 w-36 bg-red-500' 
-        animate={{
-          x: [0, 1000, 0],
-          rotate: [0, 360, 0, -360, 0]
-        }} 
+        whileHover={{
+          scale:3
+        }}
         transition={{
-          delay: 3,
-          duration: 4,
-          repeat: Infinity,
+          // delay:0.5,
+          // duration: 2.5,
+          // repeat: Infinity,
           ease: 'anticipate'
         }}
-      /> */}
+      />
 
       <h1 className='text-3xl font-bold'>
         <Typewriter
           words={text}
           loop={0} // set to 0 for infinite loop
           cursor
-          cursorStyle='|'
+          cursorStyle='_'
           typeSpeed={70}
           deleteSpeed={50}
           delaySpeed={1000}
