@@ -1,39 +1,19 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { Typewriter } from 'react-simple-typewriter'
+import Splash from './components/Splash'
+import Logo from './components/Logo'
+import Hero from './components/Hero'
+import Body from './components/Body'
 
-function App() {
-  const text = ["Welcome to Motion", "Smooth UI", "Animated with Framer + Typewriter"]
-
+export default function App() {
   return (
-    <div className='h-screen w-full flex flex-col items-center justify-center gap-10 bg-gray-100'>
-      
-      <motion.div 
-        className='h-36 w-36 bg-red-500' 
-        whileHover={{
-          scale:3
-        }}
-        transition={{
-          // delay:0.5,
-          // duration: 2.5,
-          // repeat: Infinity,
-          ease: 'anticipate'
-        }}
-      />
+    <>
+      <Splash duration={1000}>
+        <div className="fixed inset-0 flex items-center justify-center bg-[#2D2D30] z-50">
+          <Logo isSmall={true}/>
+        </div>
+      </Splash>
 
-      <h1 className='text-3xl font-bold'>
-        <Typewriter
-          words={text}
-          loop={0} // set to 0 for infinite loop
-          cursor
-          cursorStyle='_'
-          typeSpeed={70}
-          deleteSpeed={50}
-          delaySpeed={1000}
-        />
-      </h1>
-    </div>
+      <Hero/>
+      <Body/>
+    </>
   )
 }
-
-export default App
