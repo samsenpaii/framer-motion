@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from './Logo'
 import YoutubeSvg from '../utils/YoutubeSvg'
+import InstagramSvg from '../utils/InstagramSvg'
 function Hero() {
   return (
     <>
@@ -26,6 +27,9 @@ function Hero() {
         <div className=' flex flex-row'>
           <button onClick={() => window.open('https://www.youtube.com/@ChaosClub.Official', '_blank')}>
             <YoutubeSvg />
+          </button>
+          <button onClick={() => window.open('https://www.instagram.com/chaosclub.uh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', '_blank')}>
+            <InstagramSvg/>
           </button>
         </div>
       </div>
