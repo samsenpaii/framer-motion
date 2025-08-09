@@ -3,6 +3,7 @@ import Logo from './Logo'
 import YoutubeSvg from '../utils/YoutubeSvg'
 import InstagramSvg from '../utils/InstagramSvg'
 import YoutubeVideo from './YoutubeVideo'
+import MemberCard from './MemberCard'
 function Body() {
   return (
     <>
@@ -24,7 +25,7 @@ function Body() {
         </div>
 
         <div className=' border-[1px] border-amber-50 rounded-2xl bg-[#1B1A1B] w-[350px] h-64 ml-9 flex justify-center items-center sele'>
-          <p className='text-white font-sans'>
+          <p className='text-white text-xl font-sans'>
             A group of friends with a few <br/>videos online, over million fans <br/> and half a billion of views
           </p>
         </div>
@@ -47,13 +48,13 @@ function Body() {
         <YoutubeVideo></YoutubeVideo>
       </div>
 
-      <div className="grid grid-cols-3 gap-4 p-4">
-        <img src="/Divu.jpg" alt="img1" className="rounded-lg w-full h-auto" />
-        <img src="/Divu.jpg" alt="img1" className="rounded-lg w-full h-auto" />
-        <img src="/Divu.jpg" alt="img1" className="rounded-lg w-full h-auto" />
-        <img src="/Divu.jpg" alt="img1" className="rounded-lg w-full h-auto" />
-        <img src="/Divu.jpg" alt="img1" className="rounded-lg w-full h-auto" />
-        <img src="/Divu.jpg" alt="img1" className="rounded-lg w-full h-auto" />
+      <div className="grid grid-cols-3 gap-4 bg-[#161716] p-8 pt-20">
+        <MemberCard imgSrc={'/Divu.jpg'}/>
+        <MemberCard imgSrc={'/marka.webp'}/>
+        <MemberCard imgSrc={'/yjr.jpg'}/>
+        <MemberCard imgSrc={'/chonky.jpg'}/>
+        <MemberCard imgSrc={'/mohak 1.webp'}/>
+        <MemberCard imgSrc={'/all players.jpg'}/>
       </div>
     </>
   )
