@@ -35,7 +35,9 @@ function Hero() {
           }}
           ></motion.div>
         </div>
-        <button className="px-6 py-2 border border-white text-white bg-transparent hover:bg-white hover:text-black transition duration-300 hover:cursor-pointer">
+        <button className="px-6 py-2 border border-white text-white bg-transparent hover:bg-white hover:text-black transition duration-300 hover:cursor-pointer"
+                onClick={()=> window.open('https://www.instagram.com/official.unseenhours/','_blank')}
+        >
           WORK WITH US
         </button>
         <div className=' flex flex-row'>

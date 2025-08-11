@@ -14,7 +14,7 @@ function YoutubeVideo() {
       }}
     >
       <iframe
-        src="https://www.youtube.com/embed/11Vh9KcrGP0?autoplay=1&mute=1&controls=0&loop=1&playlist=11Vh9KcrGP0&modestbranding=1&rel=0&showinfo=0"
+        src="https://www.youtube.com/embed/a6zbXqjkkxQ?autoplay=1&mute=1&controls=0&loop=1&rel=0&showinfo=0"
         title="Custom Autoplay Video"
         frameBorder="0"
         allow="autoplay; fullscreen; encrypted-media"
