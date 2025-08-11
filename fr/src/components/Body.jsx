@@ -7,7 +7,7 @@ import MemberCard from './MemberCard'
 function Body() {
   return (
     <>
-      <div className='bg-black h-full p-5 flex '>   
+      <div className='bg-black h-full p-15 flex '>   
         <div className=' border-[1px] border-amber-50 rounded-2xl bg-[#1B1A1B] w-[350px] h-64 ml-9 flex justify-center items-center sele'>
           <p className='text-white text-xl font-sans'>
             A group of friends with a few <br/>videos online, over million fans <br/> and half a billion of views
