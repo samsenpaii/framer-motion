@@ -31,7 +31,7 @@ function Body() {
         <YoutubeVideo></YoutubeVideo>
       </div>
 
-      <div className="grid grid-cols-3 gap-4 bg-black p-8 pt-20">
+      <div className="grid grid-cols-3 gap-4 bg-black p-8 pt-20 pb-20">
         <MemberCard imgSrc={'/Divu.jpg'} MemberName={"Divyansh"} MemberYT={"https://www.youtube.com/@DivyanshCR7"} MemberInfo={"It’s DivyanshCR7 — your go-to for calm, clear football talk. I keep it cool, even when Ronaldo scores a hat-trick… okay, maybe not that calm"}/>
         <MemberCard imgSrc={'/marka.webp'} MemberName={"Markaroni"} MemberYT={"https://www.youtube.com/@Markaroni"} MemberInfo={"Markaroni in the house — serving football takes hot, Barça runs in my veins and sarcasm fuels my uploads. I love Football but MESSI more."}/>
         <MemberCard imgSrc={'/yjr.jpg'} MemberName={"YjR"} MemberYT={"https://www.youtube.com/@yashyjr"} MemberInfo={"YjR here — I bleed Madridismo. Transfers, goals, and why Viní Jr. is basically football’s cheat code! okay may be not for last season — that’s my daily grind."}/>
